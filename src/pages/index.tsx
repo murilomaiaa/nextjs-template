@@ -1,7 +1,7 @@
-import { useState } from "react"
-import { Title } from "../styles/pages/Home"
+import { useState } from 'react'
+import { Title } from '../styles/pages/Home'
 
-export default function Home() {
+const Home: React.FC = () => {
   const [counter, setCounter] = useState(0)
   return (
     <div>
@@ -11,3 +11,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
